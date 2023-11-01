@@ -1,0 +1,13 @@
+alias ..="cd .."
+
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias ws="cd ~/Workspace"
+
+alias tarcd='base=$(basename $PWD);cd ..;tar -czf $base.tar.gz $base'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+
+alias findrpi='arp -na | grep -e "b8:27:eb" -e "dc:a6:32" -e "e4:5f:01"'
